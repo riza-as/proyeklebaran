@@ -1,0 +1,102 @@
+h1{
+    background-color: rgb(29, 27, 29);
+    padding: 70px;
+    text-align: center;
+    color: #f1f1f1;
+    box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+  }
+ 
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+ 
+header, footer, main {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+ 
+header {
+    text-align: center;
+}
+ 
+footer {
+    text-align: center;
+}
+ 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+article {
+    flex: 2;
+    margin-right: 20px;    
+    padding: 20px;
+    background-color: rgb(236, 221, 131);
+    box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+}
+ 
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(226, 206, 115);
+    box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+navbar {
+    background-color:rgb(91, 92, 92);
+    overflow: hidden;
+    box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+  }
+  
+  .navbar {
+    background-color:rgb(91, 92, 92);
+    overflow: hidden;
+    box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+    
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: gray;
+  }
+ 
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: static;
+      bottom: 0;
+      width: 100%;
+      box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+  }
